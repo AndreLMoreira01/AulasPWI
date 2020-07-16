@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Receitas do André</title>
+    <meta charset="UTF-8" />
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            width: 100%;
+            height: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            background-color: #441127;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        #titulo-pagina {
+            color: #681a3b;
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+        }
+
+        .top {
+            background-color: #ffffff;
+            height: 80px;
+            text-align: center;
+        }
+
+        .logo {
+            width: 150px;
+            padding: 5px;
+            float: left;
+        }
+
+        #img-logo {
+            width: 50%;
+            height: auto;
+        }
+
+        .name {
+            display: inline-block;
+            margin: 25px;
+            font-size: 305x;
+            color: #C93162;
+
+        }
+
+        .barra {
+            background-color: #ff5733;
+            height: 25px;
+        }
+
+        .card {
+            margin-top: 15px;
+            background-color: #ffffff;
+            padding: 25px;
+            border-radius: 10px;
+
+            /*
+                margin-left: 100px;
+                margin-right: 100px;
+                */
+
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .container {
+            max-width: 960px;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .titulo-site {
+            color: #4d2317
+        }
+
+        #barra {
+            height: 100px;
+            background-color: #ff5733;
+            width: 100%;
+            position: static;
+            top: 0;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+
+        }
+
+        .foto {
+            width: 150px;
+            padding: 20px;
+            position: absolute;
+        }
+
+        .foto img {
+            width: 100%;
+            border-radius: 50%;
+        }
+
+        .nome-desenvolvedor {
+            padding: 30px;
+            margin-left: 80px;
+        }
+
+        .nome-desenvolvedor h1 {
+            font-size: 35px;
+            color: #4d2317;
+        }
+
+        .dados-desenvolvedor {
+            margin-top: 80px;
+
+            border-left: 10px #ffffff;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            padding: 15px
+        }
+
+        .dados-tabela {
+            padding: 10px;
+            padding-bottom: 15px;
+            text-align: left;
+        }
+
+        .dados-tabela a {
+            text-decoration: none;
+            color: #0000ff;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <div class="top">
+            <div class="container">
+                <div class="logo">
+                    <img id="img-logo" src="imgs/logo.png" alt="Logo da página">
+                </div>
+                <h1 class="name">
+                    <a id="titulo-pagina" href="https://www.tudogostoso.com.br" target="_blank">MINHAS RECEITAS</a>
+
+                </h1>
+            </div>
+        </div>
+        <div class="barra"></div>
+
+
+    </header>
+
+    <div class="container text-center">
+
+        <div class="card">
+            <h1 class="titulo-site">SOBRE O DESENVOLVEDOR</h1>
+        </div>
+
+        <div class="card">
+
+            <div id="barra">
+                <div class="foto">
+                    <img src="imgs/naaa.jpg" alt="Foto do Desenvolvedor">
+                </div>
+                <div class="nome-desenvolvedor">
+                    <h1>André Luís Moreira</h1>
+                </div>
+            </div>
+            <div class="dados-desenvolvedor">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="imgs/email.png" />
+                        </td>
+                        <td class="dados-tabela">
+                            <a href="mailto:andre.moreira12@etec.sp.gov.br">andre.moreira12@etec.sp.gov.br</a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <img src="imgs/github.png" />
+                        </td>
+                        <td class="dados-tabela">
+                            <a href="https://github.com/Andremoreiraux"
+                                target="_blank">https://github.com/Andremoreiraux</a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <img src="imgs/account.png" />
+                        </td>
+                        <td class="dados-tabela">Técnico em Desenvolvimento de Sistemas Integrado ao Ensino Médio</td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <img src="imgs/home-city.png" />
+                        </td>
+                        <td class="dados-tabela">Macatuba-SP</td>
+                    </tr>
+
+                </table>
+            </div>
+
+
+
+
+        </div>
+
+
+    </div>
+</body>
